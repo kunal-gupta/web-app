@@ -1,0 +1,66 @@
+@font-face{
+    src:url("https://www.fontspace.com/get/family/80zwl");
+    font-family: Cursed Timer ULiL;
+}
+body {
+    margin: 0;
+}
+
+h3{
+    color: #EEEEEE;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top:0px;
+}
+
+.score{
+    width:155px;
+    height:120px;
+    border-radius: 5px;
+    background: #080001;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1B244A;
+    Width: 575px;
+    Height: 385px;
+    margin:50px;
+}
+
+.score-board{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score-value{
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    color: #F94F6D;
+    font-weight: 400;
+}
+.score{
+    text-align: center;
+}
+.btn-group{
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.btn-group button{
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    background: inherit;
+    margin:5px;
+    height: 45px;
+    width: 45px;
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    font-weight: 400;
+}
